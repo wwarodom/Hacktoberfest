@@ -14,7 +14,10 @@ const Bear = [
     { code: '640-101', subject: 'HEALTHY BODY AND MIND' },
     { code: '999-101', subject: 'JAVASCRIPT FRAMEWORK' },
 ]
-ReactDOM.render(<RamdamapComponent Bear={Bear} />, document.getElementById('root'));
+const myFevouriteCar = {
+    vihecal: { car: { lambogini: 'Aventador' } }
+}
+ReactDOM.render(<RamdamapComponent Bear={Bear} myFevouriteCar={myFevouriteCar} />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
